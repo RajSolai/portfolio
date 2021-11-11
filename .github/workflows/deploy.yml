@@ -10,5 +10,4 @@ jobs:
     steps:
       - name: Deploying with FTP
         uses: actions/checkout@v2
-      - run: echo ${{secrets.EPZY_PASS}}
-      - run: make pass="password"
+      - run: make pass=${{secrets.EPZY_PASS}}

@@ -1,0 +1,12 @@
+name: Deploy to solairaj.rf.gd
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploywithftp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: make

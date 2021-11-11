@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      env:
-        EPZY_PASS: ${{secrets.EPZY_PASS}}
-      - run: echo $EPZY_PASS
-      - run: make pass=$EPZY_PASS
+        env:
+          EPZY_PASS: ${{secrets.EPZY_PASS}}
+        run: echo $EPZY_PASS
+        run: make pass=$EPZY_PASS

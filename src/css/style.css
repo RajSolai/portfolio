@@ -277,6 +277,16 @@ nav {
   animation: bganim 8s ease infinite;
 }
 
+.blog-post{
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.blog-post > a > h2{
+  font-size: 20px;
+}
+
 @-webkit-keyframes bganim {
   0% {
     background-position: 0% 50%;

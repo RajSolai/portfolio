@@ -1,7 +1,7 @@
 # the CD makefile for integrating changes to 
 # deployment
 
-all: installtools installdeps upload
+all: installtools upload
 
 installtools:
 	sudo apt install ncftp -y

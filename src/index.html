@@ -1,271 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
+<html amp lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Solai Raj - Developer,Mobile Developer,Web,App Developer - RajSolai
-    </title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
-      rel="stylesheet"
-    />
     <meta
       name="keywords"
-      content="Solai,solai,dev,app developer,developer,instagram,RajSolai,Solai,Raj,SolaiRaj,Solai Raj,Developer,Web Developer,RajSolai - Developer"
+      content="solai,engineering,react,application,developer,RajSolai,Solai,Raj,SolaiRaj,Solai Raj,Developer,Web Developer,RajSolai - Developer"
     />
     <meta
       name="description"
       content="Solai Raj Student, Web, Mobile Developer, IoT and Cloud Enthusiast Web Profile."
     />
-    <link rel="canonical" href="http://solairaj.rf.gd/" />
     <meta name="robots" content="index, follow" />
-    <meta property="og:type" content="profile" />
-    <meta
-      property="og:title"
-      content="Solai Raj - Developer,Mobile Developer,Web,App Developer - RajSolai"
+    <link rel="canonical" href="https://solairaj.rf.gd/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,700&display=swap"
+      rel="stylesheet"
     />
-    <meta
-      property="og:description"
-      content="Solai Raj A Student , Web ,Mobile Developer IoT, AI, Linux Guy"
-    />
-    <meta property="og:image" content="LINK TO THE IMAGE FILE" />
-    <meta property="og:url" content="http://solairaj.rf.gd/" />
-    <meta property="og:site_name" content="SolaiRaj" />
-    <meta name="twitter:title" content="SolaiRaj - Developer" />
-    <meta
-      name="twitter:description"
-      content="Student , Web ,Mobile Developer IoT and AI enthusiast
-            IoT, Linux Guy"
-    />
-    <meta name="twitter:image" content="LINK TO IMAGE" />
-    <meta name="twitter:site" content="@RajSolai2" />
-    <meta name="twitter:creator" content="@RajSolai2" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script
+      async
+      custom-element="amp-sidebar"
+      src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"
+    ></script>
+    <title>
+      Solai Raj - Developer in Chennai, India | Solai Raj Mobile, Web, Gtk,IoT
+      Developer
+    </title>
   </head>
   <body>
+    <header class="headerbar">
+      <div style="display: flex; justify-content: center; align-items: center">
+        <div
+          role="button"
+          on="tap:sidebar1.toggle"
+          tabindex="0"
+          class="hamburger"
+        >
+          ☰
+        </div>
+        <div style="color: #000; padding-left: 1rem">Solai Raj</div>
+      </div>
+    </header>
+    <amp-sidebar
+      style="background-color: #fafafa; color: #000"
+      id="sidebar1"
+      layout="nodisplay"
+      side="left"
+    >
+      <div
+        role="button"
+        aria-label="close sidebar"
+        on="tap:sidebar1.toggle"
+        tabindex="0"
+        class="close-sidebar"
+      >
+        ✕
+      </div>
+      <br />
+      <ul class="sidebar">
+        <li class="sidebar-btn"><a href="#about">ABOUT</a></li>
+        <li class="sidebar-btn"><a href="#myworks">MY WORKS</a></li>
+        <li class="sidebar-btn"><a href="#contact">CONTACT</a></li>
+        <li class="sidebar-btn"><a href="#">RESUME</a></li>
+      </ul>
+    </amp-sidebar>
     <nav>
       <ul>
-        <li>
-          <a href="#home">
-            <span class="material-icons">home</span>
-            &nbsp;Home
-          </a>
-        </li>
-        <li>
-          <a href="#profile">
-            <span class="material-icons">person</span>
-            &nbsp;Profile
-          </a>
-        </li>
-        <li>
-          <a href="#projects">
-            <span class="material-icons">settings</span>
-            &nbsp;Projects
-          </a>
-        </li>
-        <li>
-          <a href="./blog">
-            <span class="material-icons">description</span>
-            &nbsp;Blog
-          </a>
-        </li>
+        <li class="nav-element"><a href="#about">ABOUT</a></li>
+        <li class="nav-element"><a href="#myworks">MY WORKS</a></li>
+        <li class="nav-element"><a href="#contact">CONTACT</a></li>
+        <li class="nav-element"><a href="#">RESUME</a></li>
       </ul>
     </nav>
-    <section class="section home" id="home">
-      <div class="cover gradient-bg"></div>
-      <div class="greetbox">
-        <div class="greettext">
-          <h1 class="name">Solai Raj</h1>
-          <span>
-            Student,Web, Mobile Developer ,<br />
-            AI, IoT enthusiast and Linux Guy
-          </span>
-          <div class="btn-holder">
-            <a href="#projects">
-              <button>View Projects</button>
-            </a>
-            <a href="#profile">
-              <button class="secondary-btn">View Profile</button>
-            </a>
-          </div>
-        </div>
-        <div class="greetimg">
-          <img
-            src="./img/mine.png"
-            class="greetimg"
-            alt="solairaj"
-            height="220px"
-          />
-        </div>
-      </div>
-    </section>
-
-    <section class="section profile alt-bg" id="profile">
-      <h2>About Me</h2>
-      <article class="content animate__animated animate__fadeInDown">
-        <p>
-          Am <strong>Solai Raj</strong> <em>Web Developer</em>, Frontend and
-          Backend, <em>Flutter Developer</em>,IoT Enthusiast and a Student from
-          SRM VALLIAMMAI ENGINEERING COLLEGE ,<wbr /> Chennai Perusing my Under
-          Graduate Engineering Degree in
-          <strong>Computer Science and Engineering</strong> , <wbr /> I used on
-          work on Personal Mini projects to Production level projects for My
-          College and other Emerging <em>Startups</em> around my locality.
-        </p>
-        <p>
-          I have strong experience in developing full stack web applications
-          with technologies such as
-          <strong>ReactJS</strong> ,<strong>NodeJS</strong>,<strong
-            >NextJS</strong
-          >
-          also I am a <em>Cloud Computing</em> advocate who goes for a
-          <strong>serverless</strong> stack when ever possible such as
-          <em>AWS Lamdba</em> and <em>IBM Cloud Functions</em>.
-        </p>
-        <p>
-          Obviously as am a student I love to explore new concepts in computer
-          science, Starting my journey with
-          <strong>Action Script Flash Games</strong> to
-          <strong>Tensorflow</strong>. <wbr /> I learn new things and concepts
-          quicker which is one of my Strengths. <wbr />
-        </p>
-      </article>
-      <div class="skills">
-        <span class="skillbox react">
-          <FaReact />
-          React
-        </span>
-        <span class="skillbox redux">
-          <SiRedux />
-          Redux
-        </span>
-        <span class="skillbox node">
-          <FaNodeJs />
-          NodeJS
-        </span>
-        <span class="skillbox sql">
-          <FaDatabase />
-          NoSQL,MySQL
-        </span>
-        <span class="skillbox html">
-          <FaHtml5 />
-          HTML+CSS+JS
-        </span>
-        <span class="skillbox flutter">
-          <RiFlutterLine />
-          Flutter
-        </span>
-        <span class="skillbox ionic">
-          <IoLogoIonic />
-          Ionic
-        </span>
-      </div>
-      <div class="contacts">
-        <a href="https://github.com/RajSolai">
-          <div class="contact-card github">
-            <img src="./img/github.png" alt="Solai Raj github" />
-          </div>
-        </a>
-        <a href="mailto:msraj085@gmail.com">
-          <div class="contact-card gmail">
-            <img src="./img/gmail.png" alt="Solai Raj google" />
-          </div>
-        </a>
-        <a href="https://www.linkedin.com/in/solai085/">
-          <div class="contact-card linkedin">
-            <img src="./img/linkedin.png" alt="Solai Raj linkedin" />
-          </div>
-        </a>
+    <section class="intro" style="text-align: center">
+      <br />
+      <br />
+      <img
+        src="./img/mine.png"
+        class="mine"
+        height="190px"
+        width="190px"
+        alt="solai raj"
+      />
+      <h1>I'm Solai Raj</h1>
+      <h2 class="desc">Student | GTK | Web | IoT | Smart Contract Developer</h2>
+      <br />
+      <div class="row">
         <a
-          href="https://wa.me/918428732579?text=Hey Contact from your Web Profile"
+          href="https://github.com/RajSolai"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Github</a
         >
-          <div class="contact-card wa">
-            <img src="./img/whatsapp.png" alt="Solai Raj github" />
-          </div>
-        </a>
-        <a href="https://https://dribbble.com/msraj085">
-          <div class="contact-card dribble">
-            <img src="./img/dribbble.png" alt="Solai Raj github" />
-          </div>
-        </a>
-        <a href="https://www.instagram.com/raj.solai085/">
-          <div class="contact-card insta">
-            <img src="./img/instagram.png" alt="Solai Raj github" />
-          </div>
-        </a>
-        <a href="https://www.facebook.com/msraj.085/">
-          <div class="contact-card fb">
-            <img src="./img/facebook.png" alt="Solai Raj github" />
-          </div>
-        </a>
+        &nbsp;&nbsp;
+        <a
+          href="https://www.linkedin.com/in/solai085/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn</a
+        >
+      </div>
+      <br />
+      <br />
+    </section>
+    <hr />
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>
+        Good Day, Am <strong>Solai Raj</strong>, Pursuing My Bachelor's in
+        Computer Science and Engineering. I code applications that bring Joy to
+        myself and eases work for users. My Journey in the field of Computers
+        started when I was 15, playing with ActionScript and Adobe Flash, from
+        then I engaged myself in the application development field. Apart from
+        just coding apps, I developed interests in Robotics and IoT.  Now I Code
+        Linux <em>GTK</em> apps, <em>IoT</em> apps, <em>Blockchain</em> smart
+        contracts and Mobile application development with <em>Flutter</em> /
+        React Native and Web Development with <em>ReactJS</em>. I do freelance
+        for low cost, you can check the projects here and contact me here. As I
+        mentioned am always curious to learn new, work on interesting projects
+        to improve my skills, currently preparing for interviews and
+        internships. And that's it about me, thank you for spending your
+        pleasure time giving a read.
+      </p>
+      <h3>Skills am familiar with,</h3>
+      <div class="skills">
+        <span>Linux - Operating systems and GNU core utils</span>
+        <span>GIT - Version Control System</span>
+        <span>ReactJS - Javascript Framework</span>
+        <span>Flutter - Hybrid mobile development</span>
+        <span>IoT and Edge Computing</span>
+        <span>Cloud Native Technologies</span>
+        <span>Blockchain Smart Contracts</span>
       </div>
     </section>
-
-    <section class="section projects" id="projects">
-      <h2>Projects Of Mine</h2>
-      <div class="project-holder">
-        <div class="project-card">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/pushy-9740f.appspot.com/o/portfolio%2Fsrm%20vec%20website.png?alt=media&token=f244dd0b-f3c3-4472-92f4-5b7b7d590638"
-            class="project-card-image"
-            loading="lazy"
-            alt="Solai Raj"
-          />
-          <div class="project-card-content">
-            <h2 class="project-title">SRM VEC YRC Website</h2>
-            <p>Official YRC website for SRM Valliammai Engineering College.</p>
-            <p>React JS, Firebase, MongoDB</p>
-            <a href="https://srmvecyrc.web.app/" class="link">
-              👉️&nbsp;Visit Website
-            </a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/pushy-9740f.appspot.com/o/portfolio%2Fslt%20project.png?alt=media&token=cc030efb-aee6-4e73-a4a6-c8fa964c6655"
-            class="project-card-image"
-            loading="lazy"
-            alt="Solai Raj"
-          />
-          <div class="project-card-content">
-            <h2 class="project-title">SLT - Sign Language Translator</h2>
-            <p>Translate Sign language(s) to Words.</p>
-            <p>Tensorflow , Py3 , Flutter</p>
-            <a href="https://github.com/RajSolai" class="link">
-              👉️&nbsp;Visit Website
-            </a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/pushy-9740f.appspot.com/o/portfolio%2Fresponse%20banner.png?alt=media&token=9fa4bc38-36b4-4fe2-a224-fcab7cd65aa5"
-            class="project-card-image"
-            loading="lazy"
-            alt="Solai Raj"
-          />
-          <div class="project-card-content">
-            <h2 class="project-title">Response</h2>
-            <p>App to Test your web page's Responsiveness in Linux Desktop.</p>
-            <p>Gtk , Vala</p>
+    <hr />
+    <section id="myworks" class="myworks">
+      <h2>My Works</h2>
+      <br />
+      <div class="table">
+        <div class="column">
+          <div class="row">
+            <h3>Response</h3>
+            <p>App to Test your web page's Responsiveness in Linux.</p>
+            <p class="badge">Personal Project</p>
             <a
-              href="https://flathub.org/apps/details/com.github.rajsolai.response"
-              class="link"
+              href="https://rajsolai.github.io/Response/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><p>Checkout app here</p></a
             >
-              👉️&nbsp;Visit Website
-            </a>
           </div>
+          <div class="row">
+            <h3>Tamil Digitalizer</h3>
+            <p>Convert printed copies of books to online e-books</p>
+            <p class="badge">Personal Project</p>
+            <a
+              href="https://bit.ly/tamildigi2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>Checkout website here</p></a
+            >
+          </div>
+          <div class="row">
+            <h3>SRM VEC YRC Website</h3>
+            <p>YRC website for SRM Valliammai Engineering College.</p>
+            <p class="badge">NGO Project</p>
+            <a
+              href="https://srmvecyrc.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>Checkout website here</p></a
+            >
+          </div>
+        </div>
+        <div class="column">
+          <div class="row">
+            <h3>SLT - Sign Language Translator</h3>
+            <p>Translate Sign language(s) to Words.</p>
+            <p class="badge">Personal Project</p>
+            <a
+              href="https://github.com/RajSolai/SLT-project"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><p>Checkout Github Repo here</p></a
+            >
+          </div>
+          <div class="row">
+            <h3>Bit-Code-Bin</h3>
+            <p>Blockchain based code sharing decentralized web app.</p>
+            <p class="badge">Personal Project</p>
+            <a href="#" target="_blank"><p>Checkout app here</p></a>
+          </div>
+          <!-- <div class="row">
+            <h3>SRM VEC YRC Website</h3>
+            <p>Official YRC website for SRM Valliammai Engineering College.</p>
+            <p>Checkout website here</p>
+          </div> -->
         </div>
       </div>
     </section>
+    <hr />
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <br />
+      <div class="interactive-hello">
+        <input type="text" placeholder="Type In a Message for Me !" />
+        <button class="hello-btn">Say Hello</button>
+      </div>
+      <p style="text-align: center">
+        Contact via official Email <br />
+        <a href="mailto:msraj085@gmail.com">msraj085@gmail.com</a>
+      </p>
+    </section>
+    <hr />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -281,4 +235,15 @@
       gtag("config", "G-3FQSWDLWDE");
     </script>
   </body>
+  <footer
+    style="
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    "
+  >
+    <h2>Thank You !</h2>
+    <p>You have reached the end.</p>
+  </footer>
 </html>

@@ -1,11 +1,13 @@
 :root {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
+  background-color: #04293a;
+  color: aliceblue;
 }
 html {
   scroll-behavior: smooth;
 }
-.badge{
+.badge {
   display: inline-block;
   margin: 1px;
   padding: 5px;
@@ -92,7 +94,7 @@ nav > ul {
 }
 .nav-element > a {
   text-decoration: none;
-  color: #000;
+  color: aliceblue;
 }
 .nav-element:hover {
   border-bottom: solid 2px #000;
@@ -124,7 +126,7 @@ nav > ul {
 }
 .close-sidebar {
   background-color: #f6d7a7;
-  color: #000;
+  color: #04293A;
   font-size: 1.5em;
   padding: 1rem;
 }

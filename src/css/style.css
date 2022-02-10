@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
   background-color: #04293a;
   color: aliceblue;
 }
@@ -97,7 +97,7 @@ nav > ul {
   color: aliceblue;
 }
 .nav-element:hover {
-  border-bottom: solid 2px #000;
+  border-bottom: solid 2px #f6d7a7;
 }
 
 .headerbar {
@@ -105,17 +105,19 @@ nav > ul {
   justify-content: space-between;
   align-items: center;
   margin: 0;
-  background-color: #fafafa;
+  background-color: #064663;
+  color: #f6d7a7;
 }
 .hamburger {
   background-color: #f6d7a7;
+  color: #064663;
   padding: 1rem;
 }
 .sidebar {
   width: 60vw;
   padding: 10px;
   margin: 0;
-  background-color: #fafafa;
+  background-color: #064663;
 }
 .sidebar > li {
   list-style: none;
@@ -124,9 +126,12 @@ nav > ul {
 .sidebar a {
   text-decoration: none;
 }
+a {
+  color: #f6d7a7;
+}
 .close-sidebar {
   background-color: #f6d7a7;
-  color: #04293A;
+  color: #04293a;
   font-size: 1.5em;
   padding: 1rem;
 }
@@ -152,6 +157,23 @@ h3 {
   font-size: 16px;
 }
 
+.apps-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.app-card {
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .about {
     margin-left: 15rem;
@@ -161,7 +183,13 @@ h3 {
     flex-direction: row;
   }
   nav {
+    padding: 0.2rem;
+    background-color: #064663;
     display: block;
+  }
+  .app-card {
+    padding: 0.5rem;
+    margin: 1rem;
   }
   .headerbar {
     display: none;
